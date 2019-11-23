@@ -1,89 +1,176 @@
 var quizQuestions = [
-  {
-      question: "What franchise would you rather play a game from?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "Halo"
-          },
-          {
-              type: "Nintendo",
-              content: "Pokemon"
-          },
-          {
-              type: "Sony",
-              content: "Uncharted"
-          }
-      ]
-  },
-  {
-      question: "Which console would you prefer to play with friends?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "X-Box"
-          },
-          {
-              type: "Nintendo",
-              content: "Nintendo 64"
-          },
-          {
-              type: "Sony",
-              content: "Playstation 1"
-          }
-      ]
-  },
-  {
-      question: "Which of these racing franchises would you prefer to play a game from?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "Forza"
-          },
-          {
-              type: "Nintendo",
-              content: "Mario Kart"
-          },
-          {
-              type: "Sony",
-              content: "Gran Turismo"
-          }
-      ]
-  },
-  {
-      question: "Which of these games do you think is best?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "BioShock"
-          },
-          {
-              type: "Nintendo",
-              content: "The Legend of Zelda: Ocarina of Time"
-          },
-          {
-              type: "Sony",
-              content: "Final Fantasy VII"
-          }
-      ]
-  },
-  {
-      question: "What console would you prefer to own?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "X-Box One"
-          },
-          {
-              type: "Nintendo",
-              content: "Wii U"
-          },
-          {
-              type: "Sony",
-              content: "Playstation 4"
-          }
-      ]
-  }
+    {
+        question: "Rules ? ",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Are important"
+
+            },
+            {
+                type: "Hufflepuff",
+                content: "What rules ?"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Should be well defined"
+            },
+            {
+                type: "Slytherin",
+                content: "Should only benefit purebloods"
+            }
+        ]
+    },
+    {
+        question: "Favorite Ghost ? ",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Nearly Headless Nick"
+
+            },
+            {
+                type: "Hufflepuff",
+                content: "The Fat Friar"
+            },
+            {
+                type: "Ravenclaw",
+                content: "The Grey Lady"
+            },
+            {
+                type: "Slytherin",
+                content: "Bloody Baron"
+            }
+        ]
+    },
+    {
+        question: "Best Traits ? ",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Daring and the brave"
+
+            },
+            {
+                type: "Hufflepuff",
+                content: "Loyal and the fair"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Wise"
+            },
+            {
+                type: "Slytherin",
+                content: "Ambitious and the cunning"
+            }
+        ]
+    },
+    {
+        question: "favorite leisure activity:",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Going adventuring"
+            },
+            {
+                type: "Hufflepuff",
+                content: "Hanging out with friends"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Reading"
+            },
+            {
+                type: "Slytherin",
+                content: "Pontificating"
+            }
+        ]
+    },
+    {
+        question: "Favorite Color",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Red"
+            },
+            {
+                type: "Hufflepuff",
+                content: "Yellow"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Blue"
+            },
+            {
+                type: "Slytherin",
+                content: "Green"
+            }
+        ]
+    },
+    {
+        question: "Chose a metal",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Gold"
+            },
+            {
+                type: "Hufflepuff",
+                content: "Black"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Bronze"
+            },
+            {
+                type: "Slytherin",
+                content: "Silver"
+            }
+        ]
+    },
+    {
+        question: "Which is your favorite goose",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "The ugly duckling"
+            },
+            {
+                type: "Hufflepuff",
+                content: "Snuggly geese"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Mother goose"
+            },
+            {
+                type: "Slytherin",
+                content: "Golden-egg layer"
+            }
+        ]
+    },
+    {
+        question: "The whomping willow is swinging at you. What do you do?",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Roll underneath the branches and push the magical knot"
+            },
+            {
+                type: "Hufflepuff",
+                content: "Ask the tree why it's grumpy and if it needs a hug"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Go to the library and research magical, angry trees"
+            },
+            {
+                type: "Slytherin",
+                content: "Have your henchmen block the branches for you"
+            }
+        ]
+    }
 ];
+
 
 export default quizQuestions;

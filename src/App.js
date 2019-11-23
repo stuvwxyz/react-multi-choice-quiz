@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
-import logo from './svg/logo.svg';
+import potter from './svg/potter.jpg';
 import './App.css';
 
 class App extends Component {
@@ -123,8 +123,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+          <img src={potter} className="App-logo" alt="logo" />
+          <h2>Which House are you?</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>

@@ -22,6 +22,27 @@ var quizQuestions = [
         ]
     },
     {
+        question: "The whomping willow is swinging at you. What do you do ?",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Roll underneath the branches and push the magical knot"
+            },
+            {
+                type: "Hufflepuff",
+                content: "Ask the tree why it's grumpy and if it needs a hug"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Go to the library and research magical, angry trees"
+            },
+            {
+                type: "Slytherin",
+                content: "Have your henchmen block the branches for you"
+            }
+        ]
+    },
+    {
         question: "Favorite Ghost ? ",
         answers: [
             {
@@ -57,7 +78,7 @@ var quizQuestions = [
             },
             {
                 type: "Ravenclaw",
-                content: "Wise"
+                content: "Wise and intelligant"
             },
             {
                 type: "Slytherin",
@@ -66,7 +87,7 @@ var quizQuestions = [
         ]
     },
     {
-        question: "favorite leisure activity:",
+        question: "Favorite leisure activity:",
         answers: [
             {
                 type: "Gryffindor",
@@ -129,7 +150,7 @@ var quizQuestions = [
         ]
     },
     {
-        question: "Which is your favorite goose",
+        question: "Which is your favorite bird ?",
         answers: [
             {
                 type: "Gryffindor",
@@ -150,23 +171,65 @@ var quizQuestions = [
         ]
     },
     {
-        question: "The whomping willow is swinging at you. What do you do?",
+        question: "Choose your patronus ?",
         answers: [
             {
                 type: "Gryffindor",
-                content: "Roll underneath the branches and push the magical knot"
+                content: "Horse"
             },
             {
                 type: "Hufflepuff",
-                content: "Ask the tree why it's grumpy and if it needs a hug"
+                content: "Panda bear"
             },
             {
                 type: "Ravenclaw",
-                content: "Go to the library and research magical, angry trees"
+                content: "Beaver"
             },
             {
                 type: "Slytherin",
-                content: "Have your henchmen block the branches for you"
+                content: "Fox"
+            }
+        ]
+    },
+    {
+        question: "You are meeting with a group of friends. What do you do ?",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Lead the group"
+            },
+            {
+                type: "Hufflepuff",
+                content: "Go with the flow"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Offer useful advise"
+            },
+            {
+                type: "Slytherin",
+                content: "Mock people behind their back"
+            }
+        ]
+    },
+    {
+        question: "You are at Weasley's Wizard Wheezes. What do you buy ?",
+        answers: [
+            {
+                type: "Gryffindor",
+                content: "Extendable Ears"
+            },
+            {
+                type: "Hufflepuff",
+                content: "Daydream Charms"
+            },
+            {
+                type: "Ravenclaw",
+                content: "Real, Magical Hangman"
+            },
+            {
+                type: "Slytherin",
+                content: "Edible Dark Marks"
             }
         ]
     }
